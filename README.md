@@ -19,7 +19,8 @@ Visit https://github.com/marketplace/merge-when-green
 ### Configuration
 
 Merge when green supports both Checks and Statuses. You can configure which ones must pass for the PR to be considered
-"green" in order for it to be merged. Create a `.github/merge-when-green.yml` file to list the require checks/statuses:
+"green" in order for it to be merged. Create a `.github/merge-when-green.yml` file to list the require checks/statuses. 
+The file has to be in your master branch in order to work:
 
 ```yaml
 requiredChecks:
